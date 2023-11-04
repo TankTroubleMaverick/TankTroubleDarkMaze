@@ -1,0 +1,34 @@
+{
+	"name": "Tank Trouble Dark Maze",
+	"author": "TankTroubleMaverick",
+	"version": "11.04.2023.01",
+	"manifest_version": 3,
+	"description": "Dark theme for Tank Trouble mazes. Works best when used with TankTroubleAddons' dark website theme.",
+  
+	"declarative_net_request": {
+		"rule_resources": [
+			{
+				"id": "ruleset_1",
+				"enabled": true,
+				"path": "RedirectRule_game.json"
+			}
+		]
+	},
+  
+	"permissions": [
+		"declarativeNetRequest",
+		"declarativeNetRequestFeedback",
+		"declarativeNetRequestWithHostAccess"
+	],
+  
+	"host_permissions": [
+		"*://*.tanktrouble.com/",
+		"*://*.catbox.moe/"
+	],
+  
+	"action": {
+		"default_popup": "index.html",
+		"default_title": "TTDM"
+	}
+  
+}
