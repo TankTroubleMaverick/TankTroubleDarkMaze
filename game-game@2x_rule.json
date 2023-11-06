@@ -9,7 +9,7 @@
       }
     },
     "condition": {
-      "urlFilter": "https://cdn.tanktrouble.com/RELEASE-2023-09-06-01/assets/images/game/game@2x.png",
+      "urlFilter": "https://cdn.tanktrouble.com/*/assets/images/game/game@2x.png",
       "resourceTypes": ["image"]
     }
   }
