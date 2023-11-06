@@ -23,7 +23,7 @@
   
 	"host_permissions": [
 		"*://*.tanktrouble.com/",
-		"*://*.catbox.moe/"
+		"*://*.tanktroubledarkmaze.pages.dev/"
 	],
   
 	"action": {
