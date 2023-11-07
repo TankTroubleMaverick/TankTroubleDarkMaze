@@ -1,0 +1,16 @@
+[
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://tanktroubledarkmaze.pages.dev/assets/images/lobby/dark_game.png"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://cdn.tanktrouble.com/*/assets/images/lobby/game.png",
+      "resourceTypes": ["image"]
+    }
+  }
+]
