@@ -1,9 +1,9 @@
 {
 	"name": "TankTroubleDarkMaze",
 	"author": "TankTroubleMaverick",
-	"version": "11.06.2023.01",
+	"version": "11.06.2023.02",
 	"manifest_version": 3,
-	"description": "Dark theme for Tank Trouble mazes. Best results if used with the TankTroubleAddons dark website theme.",
+	"description": "Dark theme for Tank Trouble mazes. Best results when used with the TankTroubleAddons dark website theme.",
   
 	"declarative_net_request": {
 		"rule_resources": [
@@ -16,6 +16,16 @@
 				"id": "2",
 				"enabled": true,
 				"path": "lobby-game@2x_rule.json"
+			},
+			{
+				"id": "3",
+				"enabled": true,
+				"path": "game-game_rule.json"
+			},
+			{
+				"id": "4",
+				"enabled": true,
+				"path": "lobby-game_rule.json"
 			}
 		]
 	},
